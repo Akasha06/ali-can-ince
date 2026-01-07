@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Ali Can İnce | Service & Operations Optimization</title>
+  <meta name="description" content="Service Operations, process optimization, KPI reporting, dashboard design, and automation (Excel/VBA, Python) — professional portfolio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Ali Can İnce",
+    "jobTitle":"Service & Operations Optimization Specialist",
+    "description":"Service operations, process improvement, KPI reporting, dashboards, and automation.",
+    "knowsAbout":["Service Operations","Process Improvement","KPI Reporting","Excel","VBA","Python","Automation","Dashboards"],
+    "url":""
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Ali Can İnce</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" data-i18n="nav_about">Hakkımda</a>
+        <a href="#experience" data-i18n="nav_experience">Deneyim</a>
+        <a href="#projects" data-i18n="nav_projects">Projeler</a>
+        <a href="#skills" data-i18n="nav_skills">Yetkinlikler</a>
+        <a href="#contact" class="nav-cta" data-i18n="nav_contact">İletişim</a>
+      </nav>
+
+      <div class="controls">
+        <button class="btn-ghost" id="langBtn" type="button" aria-label="Dil değiştir">
+          <span id="langLabel">TR</span>
+        </button>
+        <button class="btn-ghost" id="themeBtn" type="button" aria-label="Tema değiştir">
+          <span class="theme-dot" aria-hidden="true"></span>
+          <span class="hide-sm" data-i18n="theme">Tema</span>
+        </button>
+        <button class="btn-ghost burger" id="burger" type="button" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#about" data-i18n="nav_about">Hakkımda</a>
+      <a href="#experience" data-i18n="nav_experience">Deneyim</a>
+      <a href="#projects" data-i18n="nav_projects">Projeler</a>
+      <a href="#skills" data-i18n="nav_skills">Yetkinlikler</a>
+      <a href="#contact" data-i18n="nav_contact">İletişim</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="pill" data-i18n="pill">Service Operations • Performance Management • Process Excellence</div>
+
+          <h1 class="h1">
+            <span data-i18n="hero_title_1">Servis & Operasyonları</span><br/>
+            <span class="accent" data-i18n="hero_title_2">ölçülebilir ve yönetilebilir</span><br/>
+            <span data-i18n="hero_title_3">hale getiririm.</span>
+          </h1>
+
+          <p class="lead" data-i18n="hero_lead">
+            KPI tasarımı, raporlama, dashboard ve otomasyon ile saha + ofis süreçlerini tek bir sistemde birleştirir; karar almayı hızlandırırım.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects" data-i18n="cta_projects">Projeleri Gör</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="cta_contact">İletişime Geç</a>
+            <a class="btn btn-ghost" href="assets/ali-can-ince-cv.pdf" download data-i18n="cta_cv">CV İndir</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric">
+              <div class="metric-num">12+</div>
+              <div class="metric-label" data-i18n="m_years">Yıl deneyim</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">Ops + Data</div>
+              <div class="metric-label" data-i18n="m_focus">Odak: Operasyon, Analitik, Otomasyon</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">Excel • VBA • Python</div>
+              <div class="metric-label" data-i18n="m_stack">Raporlama ve otomasyon</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="portrait-wrap">
+            <img class="portrait" src="assets/hero.jpg" alt="Ali Can İnce portre" />
+          </div>
+          <div class="hero-card-body">
+            <div class="name">Ali Can İnce <span class="subname" data-i18n="subname">(Can)</span></div>
+            <div class="role" data-i18n="role">Service & Operations Optimization Specialist</div>
+            <div class="chips">
+              <span class="chip" data-i18n="chip1">KPI & Reporting</span>
+              <span class="chip" data-i18n="chip2">Dashboards</span>
+              <span class="chip" data-i18n="chip3">Automation</span>
+              <span class="chip" data-i18n="chip4">Stakeholder Mgmt</span>
+            </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2" data-i18n="about_title">Hakkımda</h2>
+          <p class="muted" data-i18n="about_sub">
+            Operasyonel karmaşıklığı sadeleştirir, veriye dayalı yönetilebilir sistemlere dönüştürürüm.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="h3" data-i18n="about_h3_1">Ne yaparım?</h3>
+            <p data-i18n="about_p1">
+              Servis operasyonlarında KPI’ları doğru tanımlar; iş emirleri, saha performansı, parça/işçilik süreçleri ve müşteri deneyimi gibi metrikleri tek bir raporlama sisteminde birleştiririm.
+              Excel/VBA ve Python otomasyonlarıyla manuel işleri azaltır, hataları düşürür, hız kazandırırım.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="h3" data-i18n="about_h3_2">Nasıl değer üretirim?</h3>
+            <ul class="list" role="list">
+              <li data-i18n="about_li1">Saha + ofis akışlarını tek yönetim panelinde görünür kılarım.</li>
+              <li data-i18n="about_li2">Raporlama standartlarını kurar, sürdürülebilir hale getiririm.</li>
+              <li data-i18n="about_li3">Teknik ekip, servisler ve yöneticiler arasında net iletişim kurarım.</li>
+              <li data-i18n="about_li4">Süreç iyileştirme ve maliyet azaltma fırsatlarını sayıya dökerim.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div class="callout-title" data-i18n="callout_title">Kısa özet</div>
+          <div class="callout-body" data-i18n="callout_body">
+            Veri → içgörü → aksiyon zincirini kurarım. Operasyonun hem “sahada” hem “raporda” aynı doğrulukla çalışmasını hedeflerim.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2" data-i18n="exp_title">Deneyim</h2>
+          <p class="muted" data-i18n="exp_sub">Rol isimlerinden çok, üretilen etkiyi görünür kılan özet.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <div>
+                  <div class="timeline-role" data-i18n="exp_role_1">After Sales • Service Operations & Optimization</div>
+                  <div class="timeline-org" data-i18n="exp_org_1">Samsung Electronics • Türkiye</div>
+                </div>
+                <div class="timeline-date">2013 — Present</div>
+              </div>
+              <ul class="list">
+                <li data-i18n="exp1_li1">KPI tasarımı, dashboard ve otomasyon ile günlük/haftalık operasyon takibi.</li>
+                <li data-i18n="exp1_li2">Teknisyen performansı, iş emri statüleri ve kalite metriklerinde raporlama standartları.</li>
+                <li data-i18n="exp1_li3">Parça/işçilik süreçlerinde verimlilik ve maliyet iyileştirme çalışmaları.</li>
+                <li data-i18n="exp1_li4">Çok paydaşlı iletişim: saha ekipleri, servis partnerleri, bölge yöneticileri.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <div>
+                  <div class="timeline-role" data-i18n="exp_role_2">Automation & Reporting</div>
+                  <div class="timeline-org" data-i18n="exp_org_2">Excel/VBA • Python • Web dashboards</div>
+                </div>
+                <div class="timeline-date" data-i18n="exp_date_2">Çapraz projeler</div>
+              </div>
+              <ul class="list">
+                <li data-i18n="exp2_li1">Excel şablonları, veri doğrulama, sayfa koruma ve kullanıcı dostu giriş ekranları.</li>
+                <li data-i18n="exp2_li2">Python ile veri toplama/temizleme, otomatik rapor üretimi, web otomasyonları.</li>
+                <li data-i18n="exp2_li3">Power BI benzeri HTML dashboard tasarımları ve filtreli raporlama mantığı.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2" data-i18n="proj_title">Seçilmiş Projeler</h2>
+          <p class="muted" data-i18n="proj_sub">Problem → çözüm → çıktı formatında. (İçerikler gerektiğinde detaylandırılabilir.)</p>
+        </div>
+
+        <div class="cards-3">
+<article class="card project">
+            <div class="project-top">
+              <div class="project-icon">🧩</div>
+              <div class="project-meta">
+                <h3 class="h3" data-i18n="p5_title">Süreç Standardizasyonu & Kalite</h3>
+                <div class="muted" data-i18n="p5_stack">Prosedür • Eğitim • İletişim</div>
+              </div>
+            </div>
+            <p data-i18n="p5_desc">
+              Değişim/onarım prosedürleri, kayıt açıklama standartları ve saha iletişim şablonları ile kalite ve uyumun güçlendirilmesi.
+            </p>
+            <ul class="mini">
+              <li data-i18n="p5_li1">Süreç hatalarının azaltılması</li>
+              <li data-i18n="p5_li2">Ekipler arası ortak dil</li>
+              <li data-i18n="p5_li3">Eğitim dokümanları</li>
+            </ul>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <div class="project-icon">🔁</div>
+              <div class="project-meta">
+                <h3 class="h3" data-i18n="p6_title">Sistem Uyuşmazlığı Analizi</h3>
+                <div class="muted" data-i18n="p6_stack">Kayıt eşleşmesi • Operasyon riski</div>
+              </div>
+            </div>
+            <p data-i18n="p6_desc">
+              İki farklı sistem arasında statü senkronizasyonu probleminde; riskleri ortaya çıkaran, örnek kayıt listesiyle çözüm talep eden analiz.
+            </p>
+            <ul class="mini">
+              <li data-i18n="p6_li1">Operasyonel sürdürülebilirlik</li>
+              <li data-i18n="p6_li2">Mükerrer aksiyon riskini azaltma</li>
+              <li data-i18n="p6_li3">İyileştirme önerileri</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2" data-i18n="skills_title">Yetkinlikler</h2>
+          <p class="muted" data-i18n="skills_sub">Operasyon + veri + iletişim üçgeninde güçlü bir profil.</p>
+        </div>
+
+        <div class="cards-3">
+          <div class="card">
+            <h3 class="h3" data-i18n="s1_title">Operations & Process</h3>
+            <ul class="list">
+              <li data-i18n="s1_li1">Service network management</li>
+              <li data-i18n="s1_li2">KPI design & governance</li>
+              <li data-i18n="s1_li3">Cost saving & efficiency models</li>
+              <li data-i18n="s1_li4">Quality & compliance standardization</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="s2_title">Data & Automation</h3>
+            <ul class="list">
+              <li data-i18n="s2_li1">Excel (advanced) • Pivot • Power Query</li>
+              <li data-i18n="s2_li2">VBA macros • Templates • Protection</li>
+              <li data-i18n="s2_li3">Python • Pandas • Selenium</li>
+              <li data-i18n="s2_li4">Automated reporting pipelines</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="s3_title">Communication</h3>
+            <ul class="list">
+              <li data-i18n="s3_li1">Stakeholder management</li>
+              <li data-i18n="s3_li2">Clear escalation & follow-up</li>
+              <li data-i18n="s3_li3">Training docs & presentations</li>
+              <li data-i18n="s3_li4">Operational storytelling with data</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="faq">
+          <details class="card">
+            <summary data-i18n="faq_q1">Bu siteyi nasıl yayına alırım?</summary>
+            <div class="muted" data-i18n="faq_a1">
+              En kolay yöntem: GitHub Pages. Dosyaları bir repo’ya yükle, Settings → Pages → Deploy. Alternatif: Cloudflare Pages.
+            </div>
+          </details>
+
+          <details class="card">
+            <summary data-i18n="faq_q2">Fotoğrafımı nasıl ekleyeceğim?</summary>
+            <div class="muted" data-i18n="faq_a2">
+              Kendi fotoğrafını <b>assets/hero.jpg</b> adıyla kopyala. Aynı ölçüde otomatik sığar.
+            </div>
+          </details>
+
+          <details class="card">
+            <summary data-i18n="faq_q3">CV PDF nerede?</summary>
+            <div class="muted" data-i18n="faq_a3">
+              <b>assets/ali-can-ince-cv.pdf</b> dosyası şu an “placeholder”. CV’ni bana metin olarak verdiğinde ATS uyumlu PDF’yi üretip ekleyebilirim.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2" data-i18n="contact_title">İletişim</h2>
+          <p class="muted" data-i18n="contact_sub">İş birlikleri, proje görüşmeleri veya rol fırsatları için ulaşabilirsin.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="h3" data-i18n="contact_h3">Hızlı İletişim</h3>
+            <p class="muted" data-i18n="contact_p">
+              Aşağıdaki alanları doldurup kopyalayarak e‑posta/LinkedIn üzerinden gönderebilirsin. (Bu statik sitede form gönderimi yoktur.)
+            </p>
+
+            <div class="formlike">
+              <label data-i18n="f_name">Ad Soyad</label>
+              <input type="text" placeholder="Adınız" />
+              <label data-i18n="f_email">E‑posta</label>
+              <input type="email" placeholder="email@domain.com" />
+              <label data-i18n="f_msg">Mesaj</label>
+              <textarea rows="5" placeholder="Kısaca konu ve beklentinizi yazın."></textarea>
+              <button class="btn" type="button" id="copyMsg" data-i18n="copy_btn">Mesajı Kopyala</button>
+              <div class="tiny muted" id="copyHint" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="contact_links">Bağlantılar</h3>
+            <div class="links">
+              <a class="link" href="#" data-i18n="link_linkedin">LinkedIn (ekle)</a>
+              <a class="link" href="#" data-i18n="link_github">GitHub (opsiyonel)</a>
+              <a class="link" href="mailto:example@domain.com" data-i18n="link_email">E‑posta (güncelle)</a>
+            </div>
+            <div class="divider"></div>
+            <p class="muted" data-i18n="contact_note">
+              Not: Bağlantıları güncellemek için index.html içinde “#” ile başlayan href alanlarını değiştirmen yeterli.
+            </p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="muted">© <span id="year"></span> Ali Can İnce</div>
+          <div class="muted" data-i18n="footer_right">Designed & built for a data-driven operations profile.</div>
+        </footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
